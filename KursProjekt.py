@@ -30,7 +30,7 @@ def encrypt_file(filename, key):
     file_path = filename
     if os.path.exists(file_path):
         os.remove(file_path)
-        print(f"{file_path} har blivit raderad! ")
+        # print(f"{file_path} har blivit raderad! ")
     else:
         print(f"{file_path} finns inte! ")
 
@@ -57,7 +57,7 @@ def decrypt_file(encrypted_filename, key):
         file_path = encrypted_filename
     if os.path.exists(file_path):
         os.remove(file_path)
-        print(f"{file_path} har blivit raderad! ")
+        # print(f"{file_path} har blivit raderad! ")
     else:
         print(f"{file_path} finns inte! ")
         ## Test code ##
